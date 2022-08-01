@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FirstWinFormsApp.Models
+namespace Solid.School.Models
 {
-    public class Product
+    public class Student
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
-        public float Price { get; set; }
-        public DateTime PurchasedDate { get; set; }
+        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

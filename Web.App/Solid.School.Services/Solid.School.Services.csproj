@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solid.School.Models\Solid.School.Models.csproj" />
+    <ProjectReference Include="..\Solid.School.Repo\Solid.School.Repo.csproj" />
+  </ItemGroup>
+
+</Project>
